@@ -1,31 +1,31 @@
-arbreabeignet = [1, 2, 3, 4, 5, 6]
+# arbreabeignet = [1, 2, 3, 4, 5, 6]
 
-# faire self.arbreabeignet dans une fonction __init__(self) une liste vide | Self représente le beignet sur lequel on travaille
-# Si on travaille sur un beignet en particulier, c'est le self
+# # faire self.arbreabeignet dans une fonction __init__(self) une liste vide | Self représente le beignet sur lequel on travaille
+# # Si on travaille sur un beignet en particulier, c'est le self
 
-m = 1
-a = 0 
-arbreabeignet.append(a)
+# m = 1
+# a = 0 
+# arbreabeignet.append(a)
 
-if a < m : 
-    m = a
+# if a < m : 
+#     m = a
 
-print(m) 
-print(arbreabeignet)
+# print(m) 
+# print(arbreabeignet)
 
-arbreapancake = [6, 7, 8, 9, 12]
-w = 6
-arbreabeignet.append(arbreapancake)
+# arbreapancake = [6, 7, 8, 9, 12]
+# w = 6
+# arbreabeignet.append(arbreapancake)
 
-if w < m: 
-    m = w
+# if w < m: 
+#     m = w
 
-del arbreabeignet[arbreabeignet.index(m)] # arbreabeignet.pop(m) j'ai battu le prof. Toc. è_é ! 
+# del arbreabeignet[arbreabeignet.index(m)] # arbreabeignet.pop(m) j'ai battu le prof. Toc. è_é ! 
 
 
 
-print(arbreabeignet)
-print(m)
+# print(arbreabeignet)
+# print(m)
 
 class Heap(object):
     """
